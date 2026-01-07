@@ -87,5 +87,7 @@
     "!!!ONLY RUN AFTER UPGRADING. NOT FOR NORMAL USE!!!\nrolling restart kafka nodes to update settings.\nfirst rolling for updating(ibpv): inter.broker.protocol.version\nsecond rolling for updating(lmfv): log.message.format.version": "!!!仅在版本升级后使用。普通情况下禁止使用!!!<br/>滚动重启 kafka 更新相关参数<br/>第一次滚动重启, 更新参数(ibpv): inter.broker.protocol.version<br/>第二次滚动重启, 更新参数(lmfv): log.message.format.version",
     "Enable jmx-exporter or not": "是否开启 jmx-exporter",
     "The port of jmx-exporter service": "jmx-exporter 使用的端口，默认为19999",
-    "The configuration of jmx-exporter": "jmx-exporter 配置，参考 https://github.com/prometheus/jmx_exporter/tree/main/examples"
+    "The configuration of jmx-exporter": "jmx-exporter 配置，参考 https://github.com/prometheus/jmx_exporter/tree/main/examples",
+    "The SO.RCVBUF buffer of the socket sever sockets": "Broker 用于接收客户端数据的 TCP 缓冲区大小",
+    "The SO.SNDBUF buffer of the socket sever sockets": "Broker 向客户端发送数据时的 TCP 缓冲区大小"
   }
